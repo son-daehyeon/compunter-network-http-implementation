@@ -1,0 +1,18 @@
+group = 'com.github.son_daehyeon'
+version = '1.0.0'
+
+subprojects {
+    apply plugin: 'java'
+
+    group = 'com.github.son_daehyeon'
+    version = '1.0.0'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compileOnly("org.projectlombok:lombok:1.18.38")
+        annotationProcessor("org.projectlombok:lombok:1.18.38")
+    }
+}
