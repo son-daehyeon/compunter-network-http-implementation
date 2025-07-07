@@ -1,14 +1,14 @@
-package com.github.son_daehyeon.computer_network_socket_server.domain.controller;
+package com.github.son_daehyeon.computer_network_socket.server.domain.controller;
 
 import com.github.son_daehyeon.common.constant.HttpMethod;
 import com.github.son_daehyeon.common.constant.HttpStatus;
 import com.github.son_daehyeon.common.constant.HttpVersion;
 import com.github.son_daehyeon.common.http.HttpResponse;
-import com.github.son_daehyeon.computer_network_socket_server.domain.middleware.AuthMiddleware;
-import com.github.son_daehyeon.computer_network_socket_server.domain.schema.User;
-import com.github.son_daehyeon.computer_network_socket_server.domain.service.Service;
-import com.github.son_daehyeon.computer_network_socket_server.router.RequestMapping;
-import com.github.son_daehyeon.computer_network_socket_server.util.BodyValidator;
+import com.github.son_daehyeon.computer_network_socket.server.domain.middleware.AuthMiddleware;
+import com.github.son_daehyeon.computer_network_socket.server.domain.schema.User;
+import com.github.son_daehyeon.computer_network_socket.server.domain.service.Service;
+import com.github.son_daehyeon.computer_network_socket.server.router.RequestMapping;
+import com.github.son_daehyeon.computer_network_socket.server.util.BodyValidator;
 
 import java.util.List;
 import java.util.Map;

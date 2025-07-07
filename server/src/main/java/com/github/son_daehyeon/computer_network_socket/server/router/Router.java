@@ -1,4 +1,4 @@
-package com.github.son_daehyeon.computer_network_socket_server.router;
+package com.github.son_daehyeon.computer_network_socket.server.router;
 
 
 import com.github.son_daehyeon.common.constant.HttpMethod;
@@ -6,8 +6,8 @@ import com.github.son_daehyeon.common.constant.HttpStatus;
 import com.github.son_daehyeon.common.constant.HttpVersion;
 import com.github.son_daehyeon.common.http.HttpRequest;
 import com.github.son_daehyeon.common.http.HttpResponse;
-import com.github.son_daehyeon.computer_network_socket_server.domain.controller.Controller;
-import com.github.son_daehyeon.computer_network_socket_server.util.ApiException;
+import com.github.son_daehyeon.computer_network_socket.server.domain.controller.Controller;
+import com.github.son_daehyeon.computer_network_socket.server.util.ApiException;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
-package com.github.son_daehyeon.computer_network_socket_server.domain.repository;
+package com.github.son_daehyeon.computer_network_socket.server.domain.repository;
 
-import com.github.son_daehyeon.computer_network_socket_server.domain.schema.User;
-import com.github.son_daehyeon.computer_network_socket_server.util.Redis;
+import com.github.son_daehyeon.computer_network_socket.server.domain.schema.User;
+import com.github.son_daehyeon.computer_network_socket.server.util.Redis;
 
 import java.util.Optional;
 import java.util.UUID;

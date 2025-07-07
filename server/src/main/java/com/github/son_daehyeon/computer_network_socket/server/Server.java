@@ -1,9 +1,9 @@
-package com.github.son_daehyeon.computer_network_socket_server;
+package com.github.son_daehyeon.computer_network_socket.server;
 
 import com.github.son_daehyeon.common.http.HttpRequest;
 import com.github.son_daehyeon.common.http.HttpResponse;
-import com.github.son_daehyeon.computer_network_socket_server.router.Router;
-import com.github.son_daehyeon.computer_network_socket_server.util.MySQL;
+import com.github.son_daehyeon.computer_network_socket.server.router.Router;
+import com.github.son_daehyeon.computer_network_socket.server.util.MySQL;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

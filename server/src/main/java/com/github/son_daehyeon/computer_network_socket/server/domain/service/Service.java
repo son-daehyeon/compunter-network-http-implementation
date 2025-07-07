@@ -1,11 +1,11 @@
-package com.github.son_daehyeon.computer_network_socket_server.domain.service;
+package com.github.son_daehyeon.computer_network_socket.server.domain.service;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
 import com.github.son_daehyeon.common.constant.HttpStatus;
-import com.github.son_daehyeon.computer_network_socket_server.domain.repository.SessionRepository;
-import com.github.son_daehyeon.computer_network_socket_server.domain.repository.UserRepository;
-import com.github.son_daehyeon.computer_network_socket_server.domain.schema.User;
-import com.github.son_daehyeon.computer_network_socket_server.util.ApiException;
+import com.github.son_daehyeon.computer_network_socket.server.domain.repository.SessionRepository;
+import com.github.son_daehyeon.computer_network_socket.server.domain.repository.UserRepository;
+import com.github.son_daehyeon.computer_network_socket.server.domain.schema.User;
+import com.github.son_daehyeon.computer_network_socket.server.util.ApiException;
 
 import java.util.List;
 import java.util.UUID;

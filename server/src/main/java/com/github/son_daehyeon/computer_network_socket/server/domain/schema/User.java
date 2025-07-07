@@ -1,4 +1,4 @@
-package com.github.son_daehyeon.computer_network_socket_server.domain.schema;
+package com.github.son_daehyeon.computer_network_socket.server.domain.schema;
 
 import lombok.Builder;
 

@@ -1,9 +1,9 @@
-package com.github.son_daehyeon.computer_network_socket_server.domain.middleware;
+package com.github.son_daehyeon.computer_network_socket.server.domain.middleware;
 
 import com.github.son_daehyeon.common.constant.HttpStatus;
-import com.github.son_daehyeon.computer_network_socket_server.domain.repository.SessionRepository;
-import com.github.son_daehyeon.computer_network_socket_server.domain.schema.User;
-import com.github.son_daehyeon.computer_network_socket_server.util.ApiException;
+import com.github.son_daehyeon.computer_network_socket.server.domain.repository.SessionRepository;
+import com.github.son_daehyeon.computer_network_socket.server.domain.schema.User;
+import com.github.son_daehyeon.computer_network_socket.server.util.ApiException;
 
 import java.util.Map;
 import java.util.Objects;

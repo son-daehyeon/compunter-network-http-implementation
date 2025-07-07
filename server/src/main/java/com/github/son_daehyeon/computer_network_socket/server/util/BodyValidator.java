@@ -1,4 +1,4 @@
-package com.github.son_daehyeon.computer_network_socket_server.util;
+package com.github.son_daehyeon.computer_network_socket.server.util;
 
 import com.github.son_daehyeon.common.constant.HttpStatus;
 
