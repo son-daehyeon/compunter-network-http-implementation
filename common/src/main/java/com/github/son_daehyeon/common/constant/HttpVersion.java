@@ -1,8 +1,11 @@
 package com.github.son_daehyeon.common.constant;
 
+import lombok.RequiredArgsConstructor;
+
 /**
  * HTTP 버전 목록
  */
+@RequiredArgsConstructor
 public enum HttpVersion {
 
     HTTP_1_0("1.0"),
@@ -12,11 +15,6 @@ public enum HttpVersion {
     ;
 
     private final String version;
-
-    HttpVersion(String version) {
-
-        this.version = version;
-    }
 
     /**
      * 주어진 버전 값에 해당하는 HttpVersion 열거형 값을 반환합니다.

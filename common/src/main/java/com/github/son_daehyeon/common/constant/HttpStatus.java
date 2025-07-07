@@ -1,8 +1,11 @@
 package com.github.son_daehyeon.common.constant;
 
+import lombok.RequiredArgsConstructor;
+
 /**
  * HTTP 상태 코드 목록
  */
+@RequiredArgsConstructor
 public enum HttpStatus {
 
     // 1xx Informational Responses
@@ -80,12 +83,6 @@ public enum HttpStatus {
 
     private final int code;
     private final String message;
-
-    HttpStatus(int code, String message) {
-
-        this.code = code;
-        this.message = message;
-    }
 
     /**
      * 주어진 상태 코드에 해당하는 HttpStatus 열거형 값을 반환합니다.
